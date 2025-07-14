@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI: Arjun Innovations</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <script>
+    function toggleContent(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === "block" ? "none" : "block";
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo"><img src="images/logo.jpg" alt="Logo" class="logo-img"> Arjun Innovations</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Transforming Ideas into Projects</h1>
+    <p>Explore cutting-edge engineering and AI projects built by Arjun.</p>
+    <a href="#projects" class="btn">Browse Projects</a>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Featured Projects</h2>
+
+    <!-- Project Groups -->
+    <div class="project-category"><h3>CSE Projects</h3>
+      <div class="project-card">
+        <h4 onclick="toggleContent('cse1')">🎛️ THD Analyzer with GUI (click to view)</h4>
+        <div id="cse1" style="display:none;">
+          <p>Python GUI + FFT + THD Export</p>
+          
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h4 onclick="toggleContent('cse2')">📶 Modulation Simulator</h4>
+        <div id="cse2" style="display:none;">
+          <p>ASK/FSK/PSK + Noise + BER</p>
+          
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h4 onclick="toggleContent('cse3')">🧠 AI Assistant – Bittu 2.0</h4>
+        <div id="cse3" style="display:none;">
+          <p>94+ features + GUI + Gemini</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-category"><h3>ECE Projects</h3>
+      <div class="project-card">
+        <h4 onclick="toggleContent('ece1')">📡 Smart Traffic Light System</h4>
+        <div id="ece1" style="display:none;">
+          <p>Using IR sensors + Arduino</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-category"><h3>EEE Projects</h3>
+      <div class="project-card">
+        <h4 onclick="toggleContent('eee1')">🔋 Smart MPPT Inverter</h4>
+        <div id="eee1" style="display:none;">
+          <p>MPPT logic + Fault detection</p>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="project-category"><h3>MBA Projects</h3>
+      <div class="project-card">
+        <h4 onclick="toggleContent('mba1')">📊 Big Data Analytics in Retail</h4>
+        <div id="mba1" style="display:none;">
+          <p>Data mining + Dashboard + Python</p>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="project-category"><h3>MCA Projects</h3>
+      <div class="project-card">
+        <h4 onclick="toggleContent('mca1')">💻 Online Voting System</h4>
+        <div id="mca1" style="display:none;">
+          <p>PHP + MySQL + Auth + Chart</p>
+          
+        </div>
+      </div>
+    </div>
+
+  </section>
+<section class="request-section">
+  <h2 class="request-heading">Need a Project?</h2>
+  <p class="request-text">Click the button below to submit your request form.</p>
+
+  <div class="request-button-container">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSceEtGZw2yRSSxD_GYJNvpX-JSHjNqkYUJjKlMga-2_UAnx5Q/viewform"
+       target="_blank"
+       class="gradient-button">
+      📝 Request Your Project
+    </a>
+  </div>
+</section>
+
+
+
+
+
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>📞 Contact Us</h2>
+    <h3>Email: <a href="mailto:bunnykristipatidhanu123@gmail.com">bunnykristipatidhanu123@gmail.com</a></h3>
+    <h3>Arjun: <a href="https://wa.me/918247505768" target="_blank">Chat Now For The project</a></h3>
+    <h3>SURENDRA: <a href="https://wa.me/916305639020" target="_blank">Chat Now For The projects</a></h3>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 AI: Arjun Innovations. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
